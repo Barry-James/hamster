@@ -1,0 +1,132 @@
+.basis{
+	background: url("../images/coffe.jpg") no-repeat 100% 4%,
+	url("../images/portfolio.jpg") no-repeat 0% 44.5%,
+	url("../images/contact1.jpg") no-repeat 100% 93%;
+}
+.header{
+	background-color: #262626;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.logo{
+	float: left;
+	color: #c9c9c9;
+	font-size: 32px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+.menu__item{
+	float: right;
+	text-transform: uppercase;
+	font-size: 26px;
+	font-family: 'Roboto', sans-serif;
+}
+.menu__link{
+	display: block;
+	position: relative;
+	color: #c9c9c9;
+	cursor: pointer;
+	padding: 25px 35px 25px 0px;
+	transition: 0.3s;
+}
+.menu__link:hover{
+	color: #ffffff;
+}
+.content{
+	
+}
+.indent__outer{
+	height: 0px;
+}
+.indent__middle{
+	height: 80px;
+}
+.indent__inner{
+	height: 60px;
+}
+.content__item{
+	margin-right: 35%;
+	margin-left: 10%;
+	background-color: rgba(212, 212, 212, .3);
+	color:#262626;
+	padding-right: 290px;
+	padding-left: 70px;
+	padding-bottom: 90px;
+	font-size: 23px;
+	font-family: 'Quicksand', sans-serif;
+	line-height: 42px;
+	text-indent: 20px;
+}
+.content__text{
+	padding-bottom: 30px;
+}
+.content__item_even{
+	margin-left: 35%;
+	margin-right: 10%;
+	padding-left: 290px;
+	padding-right: 70px;
+}
+.heading{
+	font-size: 28px;
+	padding-bottom: 50px;
+	padding-left: 30%;
+}
+.portfolio__item{
+	height: 200px;
+	width: 150px;
+	background: #a3a3a3;
+	display: inline-block;
+	margin: 0 0 25px 27px;
+}
+.contacts__item{
+	padding-left: 60px;
+}
+.contacts__item:hover{
+	font-weight: bold;
+	transition: 0.3s;
+}
+.contacts__mail{
+	background: url("../images/icons/icons1/mail1.png") no-repeat 10% 50%;
+}
+.contacts__mail:hover{
+	background: url("../images/icons/icons2/mail2.png") no-repeat 10% 50%;
+}
+.contacts__phone{
+	background: url("../images/icons/icons1/phone1.png") no-repeat 10% 50%;
+}
+.contacts__phone:hover{
+	background: url("../images/icons/icons2/phone2.png") no-repeat 10% 50%;
+}
+.contacts__skype{
+	background: url("../images/icons/icons1/skype1.png") no-repeat 10% 50%;
+}
+.contacts__skype:hover{
+	background: url("../images/icons/icons2/skype2.png") no-repeat 10% 50%;
+}
+.contacts__facebook{
+	background: url("../images/icons/icons1/facebook1.png") no-repeat 10% 50%;
+}
+.contacts__facebook:hover{
+	background: url("../images/icons/icons2/facebook2.png") no-repeat 10% 50%;
+}
+.contacts__vk{
+	background: url("../images/icons/icons1/vk1.png") no-repeat 10% 50%;
+}
+.contacts__vk:hover{
+	background: url("../images/icons/icons2/vk2.png") no-repeat 10% 50%;
+}
+.contacts__insta{
+	background: url("../images/icons/icons1/insta1.png") no-repeat 10% 50%;
+}
+.contacts__insta:hover{
+	background: url("../images/icons/icons2/insta2.png") no-repeat 10% 50%;
+}
