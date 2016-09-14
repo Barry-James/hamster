@@ -1,4 +1,4 @@
-.basis{
+body{
 	background: url("../images/coffe.jpg") no-repeat 100% 4%,
 	url("../images/portfolio.jpg") no-repeat 0% 44.5%,
 	url("../images/contact1.jpg") no-repeat 100% 93%;
@@ -16,8 +16,7 @@
 	font-size: 32px;
 	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
-	padding-top: 20px;
-	padding-left: 40px;
+	padding: 20px 0 0 40px;
 }
 .clearfix:after{
     content:'';
@@ -41,26 +40,17 @@
 .menu__link:hover{
 	color: #ffffff;
 }
+.substrate{
+	height: 160px;
+}
 .content{
 	
 }
-.indent__outer{
-	height: 0px;
-}
-.indent__middle{
-	height: 80px;
-}
-.indent__inner{
-	height: 60px;
-}
 .content__item{
-	margin-right: 35%;
-	margin-left: 10%;
+	margin: 0 35% 0 10%;
 	background-color: rgba(212, 212, 212, .3);
 	color:#262626;
-	padding-right: 290px;
-	padding-left: 70px;
-	padding-bottom: 90px;
+	padding: 60px 290px 90px 70px;
 	font-size: 23px;
 	font-family: 'Quicksand', sans-serif;
 	line-height: 42px;
@@ -70,10 +60,8 @@
 	padding-bottom: 30px;
 }
 .content__item_even{
-	margin-left: 35%;
-	margin-right: 10%;
-	padding-left: 290px;
-	padding-right: 70px;
+	margin: 0 10% 0 35%;
+	padding: 60px 70px 90px 290px;
 }
 .heading{
 	font-size: 28px;
